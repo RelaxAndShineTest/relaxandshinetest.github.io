@@ -80,7 +80,7 @@
 
 figure.effect-duke
 {
-	background  : rgba(232,71,0,0.7);
+	background  : rgba(32,144,230,0.7);
 	overflow    :hidden;
 }
 
@@ -174,7 +174,7 @@ figure.effect-julia img {
 figure.effect-julia figcaption {
 	text-align 			: center;
 	position 			: relative;
-	background 			: rgba(232,71,0,0);
+	background 			: rgba(32,144,230,0);
 	-sm-transition 		: background 1s ease 0.15s;
 	-o-transition 		: background 1s ease 0.15s;
 	-webkit-transition 	: background 1s ease 0.15s;
@@ -182,7 +182,7 @@ figure.effect-julia figcaption {
 	transition 			: background 1s ease 0.15s;
 }
 figure.effect-julia figcaption:hover{
-	background 			: rgba(232,71,0,0.8);
+	background 			: rgba(32,144,230,0.8);
 
 }
 
@@ -256,7 +256,7 @@ figcaption>.socials > a>.fa.animated{
 	background-color 	: rgba(255,255,255,0);
 	color 				: #ffffff;
 	transform 			: rotate(0deg);
-	box-shadow 			: 0 0 5px rgba(232,71,0, 0);
+	box-shadow 			: 0 0 5px rgba(32,144,230, 0);
 	transition 			: all   ease 0.50s;
 	-moz-transition 	: all   ease 0.50s;
 	-webkit-transition 	: all   ease 0.50s;

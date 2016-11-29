@@ -145,7 +145,7 @@ a {
 
 .head-tag h1 span {
     letter-spacing  : 2.5px;
-    color           : #f9844c;
+    color           : #4E9FFB;
     font-weight     : 600;
     font-size       : 63px;
    
@@ -230,7 +230,7 @@ a {
     margin-right        : -28px;
     width               : 10px;
     height              : 39px;
-     background         : #f65a41;
+     background         : #197FCE;
     -webkit-transform   : skew(27deg);
     -moz-transform      : skew(27deg);
     -o-transform        : skew(27deg);   
@@ -284,7 +284,7 @@ a {
 
 .buy-btn:hover,
 .buy-btn:focus{
-    background-color    : #e84700;
+    background-color    : #4DAAF2;
     border              : 0;
     color               : #fff;
 }
@@ -302,7 +302,7 @@ a {
     margin-left     : -20px;
     border-left     : 20px solid transparent;
     border-right    : 20px solid transparent;
-    border-bottom   : 70px solid  #e84700;
+    border-bottom   : 70px solid  #4DAAF2;
 }
 
 .second-title{
@@ -368,7 +368,7 @@ ul.nav.navbar-nav li a {
 .navbar-nav > li:last-child{
     border-right   : 1px solid transparent;
     padding-left   : 15px;
-    border-left    : 1px solid #e84700;
+    border-left    : 1px solid #4DAAF2;
     line-height    : 20px;
     min-width      : 31px;
  
@@ -391,13 +391,13 @@ border-radius   : 0;
 
 .search-open .form-control:focus {
     outline             : 0;
-    -moz-box-shadow     : 0px 0px 1px rgba(232,71,0,0.9);
-    -webkit-box-shadow  : 0px 0px 1px rgba(232,71,0,0.9);
-    -ms-box-shadow      : 0px 0px 1px rgba(232,71,0,0.9);
-    -o-box-shadow       : 0px 0px 1px rgba(232,71,0,0.9);
-    box-shadow       : 0px 0px 1px rgba(232,71,0,0.9);
+    -moz-box-shadow     : 0px 0px 1px rgba(0,155,233,0.9);
+    -webkit-box-shadow  : 0px 0px 1px rgba(0,155,233,0.9);
+    -ms-box-shadow      : 0px 0px 1px rgba(0,155,233,0.9);
+    -o-box-shadow       : 0px 0px 1px rgba(0,155,233,0.9);
+    box-shadow       : 0px 0px 1px rgba(0,155,233,0.9);
 
-    /*box-shadow          : 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 1px rgba(232,71,0,0.9);*/
+    /*box-shadow          : 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 1px rgba(0,155,233,0.9);*/
 }
 
 .search-open .input-group{
@@ -421,18 +421,18 @@ font-size           : 15px;
 button.btn-u {
 padding             : 6px 10px;
 color               : #fff;
-background-color    : #e84700;
-border              : 1px solid #e84711;
+background-color    : #4DAAF2;
+border              : 1px solid #109DE9;
 }
 button.btn-u:focus,
 button.btn-u:active{
-    border              : 1px solid red;
+    border              : 1px solid blue;
       outline-width     : 0px;
-     -moz-box-shadow    : 0px 0px 1px rgba(232,71,0,0.9);
-    -webkit-box-shadow  : 0px 0px 1px rgba(232,71,0,0.9);
-    -ms-box-shadow      : 0px 0px 1px rgba(232,71,0,0.9);
-    -o-box-shadow       : 0px 0px 1px rgba(232,71,0,0.9);
-    box-shadow          : 0px 0px 1px rgba(232,71,0,0.9);
+     -moz-box-shadow    : 0px 0px 1px rgba(0,155,233,0.9);
+    -webkit-box-shadow  : 0px 0px 1px rgba(0,155,233,0.9);
+    -ms-box-shadow      : 0px 0px 1px rgba(0,155,233,0.9);
+    -o-box-shadow       : 0px 0px 1px rgba(0,155,233,0.9);
+    box-shadow          : 0px 0px 1px rgba(0,155,233,0.9);
 }
 .navbar-default{
     background-color    : #f7f7f7;
@@ -449,13 +449,13 @@ ul.nav.navbar-nav>li>.active{
  }
 ul.nav.navbar-nav li a:hover,
 ul.nav.navbar-nav li a:focus {
-    color       : #f54828;
+    color       : #28A3F6;
     background  : transparent;
     }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus{
-color       : #f54828;
+color       : #28A3F6;
 background  : transparent;
 }
 
@@ -480,7 +480,7 @@ background  : transparent;
 .navbar-default .navbar-nav > .open > a:focus {
 
   background-color  : transparent !important;
-  color             : #f54828;
+  color             : #28A3F6;
   }
 
 
@@ -575,20 +575,20 @@ a.navbar-brand {
 }
 
 .mm-list a, .mm-list a:hover{
-    color : rgb(232, 71, 0);
+    color : rgb(40, 163, 246);
 }
 
 .mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), 
 .mm-menu .mm-list > li.mm-selected > span{
 
-    color : rgb(232, 71, 0);
+    color : rgb(40, 163, 246);
 }
 
 .mm-menu .mm-list > li > a.mm-subopen:after{
     color   : red !important;
 }
 .mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before {
-border-color    : rgba(232, 71, 0, 0.8);
+border-color    : rgba(30, 110, 164, 0.8);
 }
 
 .mm-menu .mm-list > li > a.mm-subclose{
@@ -615,12 +615,12 @@ section.who-we-are .col-lg-12{
 }
 section.who-we-are .col-md-3 .fa{
     font-size           : 25px;
-    color               : #e84700;
+    color               : #4DAAF2;
     margin              : 0 auto;
     height              : 90px;
     width               : 90px;
     border-radius       : 50%;
-    border              :2px solid #e84700;
+    border              :2px solid #4DAAF2;
     line-height         : 80px;
     cursor              : pointer;
     -webkit-transition  : all  ease-in-out 0.35s;
@@ -637,9 +637,9 @@ section.who-we-are .col-md-3 i:before{
 
 section.who-we-are .col-md-3 .fa:hover{
     
-    background-color        : #e84700;    
+    background-color        : #4DAAF2;    
     color                   : #fff;
-    border                  : 1px solid #e84711;
+    border                  : 1px solid #109DE9;
     -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
     -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
     -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
@@ -711,8 +711,8 @@ section.who-we-are .col-md-3 .fa:hover{
 
 .media:hover .media-left a .fa{
     color                   : #999;
-    border                  : 2px solid #e84711;
-    background-color        : #e84700;
+    border                  : 2px solid #109DE9;
+    background-color        : #4DAAF2;
 }
 
 .media:hover .media-left a,
@@ -799,7 +799,7 @@ padding-right       :20px;
 .btn-danger:hover{
     outline             : 0;
     background          :rgb(232, 71, 11) !important;
-    border              : 1px solid rgb(232, 71, 0) !important;
+    border              : 1px solid rgb(40, 163, 246) !important;
     -webkit-transition  : all 0.5s ease-in-out !important;
     -moz-transition     : all 0.5s ease-in-out !important;
     -o-transition       : all 0.5s ease-in-out !important;
@@ -819,7 +819,7 @@ padding-right       :20px;
     font-family         : 'Open Sans', sans-serif;
     text-transform      : uppercase;
     font-size           : 20px;
-    color               : #e84700;
+    color               : #4DAAF2;
     background-color    : #ffffff;
     border              : 1px solid #fff;
 }
@@ -847,8 +847,8 @@ padding-right       :20px;
     
 }
 .button-set .btn-primary{
-    background-color    : #e84700;
-    border              : 1px solid #e84711;
+    background-color    : #4DAAF2;
+    border              : 1px solid #109DE9;
 }
 .button-set{
     margin-top          : 50px;
@@ -858,8 +858,8 @@ padding-right       :20px;
 }
 .contact-us{
     padding: 6px 12px;
-    background-color: #e84700;
-    border: 1px solid #e84711;
+    background-color: #4DAAF2;
+    border: 1px solid #109DE9;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
@@ -926,7 +926,7 @@ padding-right       :20px;
 #filter li a.active,
 #filter li a:hover,
 #filter li a:focus{
-    background-color    : #e84700;
+    background-color    : #4DAAF2;
     color               : #fff;
     text-decoration     : none;
     outline             : none;
@@ -1012,7 +1012,7 @@ padding-right       :20px;
     border              : 1px solid;
     font-size           : 20px;
     line-height         : 15px;
-    background          : rgba(232, 71, 0, 0);
+    background          : rgba(54, 150, 214, 0);
     -webkit-transition  : background  ease 0.50s;
     -moz-transition     : background  ease 0.50s;
     -ms-transition      : background  ease 0.50s;
@@ -1022,7 +1022,7 @@ padding-right       :20px;
 
 }
 .our-team .icon-holder ul li:hover a .fa{
-background      : rgba(232, 71, 0, 1);
+background      : rgba(54, 150, 214, 1);
 border-color    : rgba(255,255,255,0.5);
 
 }
@@ -1449,8 +1449,8 @@ padding-top     : 19px;
 
 .contact-wrapper .costom-btn{
     width                       : 100%;
-    background                  : rgba(232, 71, 0, 1);
-    border                      : 1px solid #e84700;
+    background                  : rgba(54, 150, 214, 1);
+    border                      : 1px solid #4DAAF2;
     font                        : bold 16px/18px 'Open Sans', sans-serif;
     color                       : #ffffff;
     text-transform              : uppercase;
@@ -1465,7 +1465,7 @@ padding-top     : 19px;
 }
 
 .contact-wrapper .costom-btn:hover{
-    background          : rgba(232, 71, 0, 0);
+    background          : rgba(54, 150, 214, 0);
     color               : #ffffff;
     border              : 1px solid #ffffff;
 }
@@ -1520,11 +1520,11 @@ padding-top     : 19px;
 .contact-wrapper .form-control:focus {
     border              : 1px solid rgba(232,71,0, 1);
     outline             : 0;
-    -moz-box-shadow     : 0px 0px 3px rgba(232,71,0,0.9);
-    -webkit-box-shadow  : 0px 0px 3px rgba(232,71,0,0.9);
-    -ms-box-shadow      : 0px 0px 3px rgba(232,71,0,0.9);
-    -o-box-shadow       : 0px 0px 3px rgba(232,71,0,0.9);
-    box-shadow          : 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 3px rgba(232,71,0,0.9);
+    -moz-box-shadow     : 0px 0px 3px rgba(0,155,233,0.9);
+    -webkit-box-shadow  : 0px 0px 3px rgba(0,155,233,0.9);
+    -ms-box-shadow      : 0px 0px 3px rgba(0,155,233,0.9);
+    -o-box-shadow       : 0px 0px 3px rgba(0,155,233,0.9);
+    box-shadow          : 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 3px rgba(0,155,233,0.9);
     }
 
 
@@ -1540,7 +1540,7 @@ padding-top     : 19px;
 
 .contact-wrapper .contact-or p{
     font                : bold 25px/22px 'Roboto Condensed', sans-serif;
-    color               : #e84700;
+    color               : #4DAAF2;
     padding             : 0;
     margin              : 0 auto;
     letter-spacing      : 1.5px;
@@ -1574,7 +1574,7 @@ padding-top     : 19px;
     text-align          : center;
     border-radius       : 50%;
     border              : 1px solid #ffffff; 
-    background          : rgba(232, 71, 0, 0);
+    background          : rgba(54, 150, 214, 0);
     -webkit-transition  : background  ease 0.50s;
     -moz-transition     : background  ease 0.50s;
     -o-transition       : background  ease 0.50s;
@@ -1606,7 +1606,7 @@ padding-top     : 19px;
 
 
 .contact-wrapper .icon-holder ul li:hover{
-background      : rgba(232, 71, 0, 1);
+background      : rgba(54, 150, 214, 1);
 border          : 1px solid rgba(255,255,255,0.5);
 }
 
@@ -1638,7 +1638,7 @@ footer .footer-heading{
 
 .footer-heading::first-letter {
   
-  color  : #e84700;
+  color  : #4DAAF2;
 }
 
 .footer-content{
@@ -1723,7 +1723,7 @@ footer .footer-heading{
     text-transform  : capitalize;
 }
 .footer-bottom .col-xs-12 p a:hover{
-    color   : #e84700 !important;
+    color   : #4DAAF2 !important;
 }
 .footer-bottom{
     background-color    : #252525;
@@ -1757,7 +1757,7 @@ footer .footer-heading{
     }
 
 .backtop:hover {
-    color      : #e84700;
+    color      : #4DAAF2;
     background : #252525;
     }
 
@@ -1804,16 +1804,16 @@ footer .footer-heading{
     margin-bottom   : 0;
     background-color: transparent;
     background-image: none;
-    border          : 1px solid #e84700 !important;
+    border          : 1px solid #4DAAF2 !important;
     border-radius   : 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
-background-color    : #e84700;
+background-color    : #4DAAF2;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-background-color    : #e84700;
+background-color    : #4DAAF2;
 -webkit-transition  : all ease 200ms;
 -moz-transition     : all ease 200ms;
 -o-transition       : all ease 200ms;
@@ -1883,7 +1883,7 @@ transition          : all ease 200ms;
     }
 
 .blog-date p{
-    background      : #f54828;
+    background      : #28A3F6;
     padding         : 10px 25px 15px;
     font-family     : 'Roboto Condensed', sans-serif;
     color           : #ffffff;
@@ -1931,7 +1931,7 @@ transition          : all ease 200ms;
 }
 
 .blog-content h1 a:hover, .blog-content .icon-holder a:hover{
-    color         : #f54828;
+    color         : #28A3F6;
     }
 
 .blog-content .icon-holder{
@@ -1998,8 +1998,8 @@ transition          : all ease 200ms;
 
 
 .blog-content button:hover{  
-    border  :  1px solid #f54828;
-    color   :  #f54828;
+    border  :  1px solid #28A3F6;
+    color   :  #28A3F6;
 }
 
 .blog-content .video-area{
@@ -2065,7 +2065,7 @@ transition          : all ease 200ms;
 .pagination > li > span:hover, 
 .pagination > li > a:focus, 
 .pagination > li > span:focus{
-    background          : #f54828;
+    background          : #28A3F6;
     color               : #ffffff;
     -webkit-text-shadow : 0 1px 0 #000000;
     -moz-text-shadow    : 0 1px 0 #000000;
